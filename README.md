@@ -5,7 +5,11 @@ The repository contains :
 1. The 114 color double-sided Braille images from six different Braille books and six ordinary single printed Braille documents and their de-skewed images.
 2. Braille recto dots, Braille verso dots  annotation information for each double-sided Braille image. The annotation information contains the skewed angle of the Braille dots, vertical and horizontal lines position and each Braille cell information with location and six dots.  
 
-## Detailed Annotation Information
+## Braille Image Acquisition Way
+
+We select flatbed scanner to obtain the double-sided Braille images, which is convenient and can provide good quality of Braille images. The scanner used in this paper is HP LaserJet Pro MFP M226dn. To reduce storing memory and remaining enough clarity, we use 200dpi resolution to capture color Braille images and store them in JPEG format.
+
+## Details of Annotation Information
 For each double-sided Braille image, we provide their corresponding Braille recto dots annotaion(with the postfix of "+recto.txt" ) and  Braille verso dots annotaion(with the postfix of "+verso.txt" ) .
 For each annotation file, the specific conntent and format are  as follows:
 * The first line is the skewed angle corresponding Braille dots. When the angle is positive, it indicates that the Braille dots skew in a clockwise direction. Otherwise,  they skew in an anticlockwise direction.
@@ -49,8 +53,22 @@ int imageRotate(InputArray src, OutputArray dst, double angle)
 	return 0;
 }
 ```
+##  Training Set and Test Set 
+We divide our DSBI dataset into training set and test set. The total Braille images number of DSBI is 114, we select about 1/4 amount, 26 images, as training set and 3/4 amount, 88 images, as test set. Training images are from selected professional tool books,textbooks, novels and ordinary printed documents. Test images are from each captured Braille book. The specific statistical information of training set and test set is shown below.
+
+| Book name |  Training set pages | Test set pages |
+| :------| :------: | :------: |
+| 1.Massage | 10 |  10 |
+| 2.Fundamentals of Massage | 0 | 20 |
+| 3.The Second Volume of Ninth Grade Chinese Book 1 | 0 |  20 |
+| 4.The Second Volume of Ninth Grade Chinese Book 2 | 0 | 20 |
+| 5.Math | 10 | 22 |
+| 6.Shaver Yang Fengting | 3 |  3 |
+| 7.Ordinary printed document | 3 | 3 |
+| Total | 26 | 88 |
+
+We provide the relative pathes of specific Training set files in  'train.txt ', and the Test set files in 'test.txt'.
 
 
 ## Others
 Some Braille images may contain only recto dots or verso dots.If there are no Braille recto dots on one image, the corresponding recto dots annotation file will be empty, which is the same for verso dots.  
-
