@@ -8,6 +8,18 @@ The repository contains :
 ## Braille Image Acquisition Way
 
 We select flatbed scanner to obtain the double-sided Braille images, which is convenient and can provide good quality of Braille images. The scanner used in this paper is HP LaserJet Pro MFP M226dn. To reduce storing memory and remaining enough clarity, we use 200dpi resolution to capture color Braille images and store them in JPEG format.
+##  Detailes of dataset DSBI
+There are total 114 color double-sided Braille images from six different Braille books and six ordinary printed Braille documents. These Braille books include reference books, such as Massage, professional textbooks, such as middle school Chinese textbook, and novels, such as Shaver Yang Fengting.The detailed description of our constructed Braille image dataset DSBI is show below.
+| Book name |  Total pages | Verso dots pages |Image quality|
+| :------| :------: | :------: | :------: |
+| 1.Massage | 20 |  1 | Bad|
+| 2.Fundamentals of Massage | 20 | 1 | Normal|
+| 3.The Second Volume of Ninth Grade Chinese Book 1 | 20 |  1 | Normal|
+| 4.The Second Volume of Ninth Grade Chinese Book 2 | 10 | 1 | Normal|
+| 5.Math | 32 | 0 | Normal|
+| 6.Shaver Yang Fengting | 6 |  0 | Normal|
+| 7.Ordinary printed document | 6 | 0 | Good|
+| Total | 114 | 4 | N/A|
 
 ## Details of Annotation Information
 For each double-sided Braille image, we provide their corresponding Braille recto dots annotaion(with the postfix of "+recto.txt" ) and  Braille verso dots annotaion(with the postfix of "+verso.txt" ) .
