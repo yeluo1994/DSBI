@@ -84,6 +84,7 @@ We provide the relative pathes of specific Training set files in  'train.txt ', 
 
 ## Citation
 If you use DSBI in your work, please cite:
+
 Renqiang Li, Hong Liu, Xiangdong Wan, Yueliang Qiang 2018 arXiv:1811.10893 [cs.CV]
 
 
