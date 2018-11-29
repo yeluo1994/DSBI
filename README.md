@@ -5,7 +5,7 @@ The repository contains :
 1. The 114 color double-sided Braille images from six different Braille books and six ordinary single printed Braille documents and their de-skewed images.
 2. Braille recto dots, Braille verso dots  annotation information for each double-sided Braille image. The annotation information contains the skewed angle of the Braille dots, vertical and horizontal lines position and each Braille cell information with location and six dots.  
 
-This work is supported and maintained by Institute of Computing Technology, Chinese Academy of Sciences.  
+This project is supported and maintained by Institute of Computing Technology, Chinese Academy of Sciences.  Please feel free to email us via lirenqiang@ict.ac.cn or hliu@ict.ac.cn for more details.
 
 ## Braille Image Acquisition Way
 
