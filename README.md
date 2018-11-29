@@ -5,6 +5,8 @@ The repository contains :
 1. The 114 color double-sided Braille images from six different Braille books and six ordinary single printed Braille documents and their de-skewed images.
 2. Braille recto dots, Braille verso dots  annotation information for each double-sided Braille image. The annotation information contains the skewed angle of the Braille dots, vertical and horizontal lines position and each Braille cell information with location and six dots.  
 
+This work was supported by Institute of Computing Technology, Chinese Academy of Sciences.  
+
 ## Braille Image Acquisition Way
 
 We select flatbed scanner to obtain the double-sided Braille images, which is convenient and can provide good quality of Braille images. The scanner used in this paper is HP LaserJet Pro MFP M226dn. To reduce storing memory and remaining enough clarity, we use 200dpi resolution to capture color Braille images and store them in JPEG format.
@@ -90,3 +92,4 @@ Renqiang Li, Hong Liu, Xiangdong Wan, Yueliang Qiang 2018 arXiv:1811.10893 [cs.C
 
 ## Others
 Some Braille images may contain only recto dots or verso dots.If there are no Braille recto dots on one image, the corresponding recto dots annotation file will be empty, which is the same for verso dots.  
+
