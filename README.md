@@ -82,6 +82,10 @@ We divide our DSBI dataset into training set and test set. The total Braille ima
 
 We provide the relative pathes of specific Training set files in  'train.txt ', and the Test set files in 'test.txt'.
 
+## Citation
+If you use DSBI in your work, please cite:
+Renqiang Li, Hong Liu, Xiangdong Wan, Yueliang Qiang 2018 arXiv:1811.10893 [cs.CV]
+
 
 ## Others
 Some Braille images may contain only recto dots or verso dots.If there are no Braille recto dots on one image, the corresponding recto dots annotation file will be empty, which is the same for verso dots.  
