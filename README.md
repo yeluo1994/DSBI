@@ -1,9 +1,11 @@
 # README
 This repository provides the Double-Sided Braille Image Dataset (DSBI) descrided in 
-*[DSBI: Double-Sided Braille Image Dataset and Algorithm Evaluation for Braille Dots Detection](https://github.com/yeluo1994/DSBI)* .
+*[DSBI: Double-Sided Braille Image Dataset and Algorithm Evaluation for Braille Dots Detection](https://arxiv.org/abs/1811.10893)* .
 The repository contains :  
 1. The 114 color double-sided Braille images from six different Braille books and six ordinary single printed Braille documents and their de-skewed images.
 2. Braille recto dots, Braille verso dots  annotation information for each double-sided Braille image. The annotation information contains the skewed angle of the Braille dots, vertical and horizontal lines position and each Braille cell information with location and six dots.  
+
+This project is supported and maintained by Institute of Computing Technology, Chinese Academy of Sciences.  Please feel free to email us via lirenqiang@ict.ac.cn or hliu@ict.ac.cn for more details.
 
 ## Braille Image Acquisition Way
 
@@ -82,6 +84,12 @@ We divide our DSBI dataset into training set and test set. The total Braille ima
 
 We provide the relative pathes of specific Training set files in  'train.txt ', and the Test set files in 'test.txt'.
 
+## Citation
+If you use DSBI in your work, please cite:
+
+Renqiang Li, Hong Liu, Xiangdong Wan, Yueliang Qiang 2018 arXiv:1811.10893 [cs.CV]
+
 
 ## Others
 Some Braille images may contain only recto dots or verso dots.If there are no Braille recto dots on one image, the corresponding recto dots annotation file will be empty, which is the same for verso dots.  
+
